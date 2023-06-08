@@ -18,7 +18,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "devStart": "node app.js",
+    "devStart": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
