@@ -18,7 +18,7 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 const verificationRoutes = require("./routes/verificationRoutes");
 const withdrawalRequestRoutes = require("./routes/withdrawalRequestRoutes");
 
-app.use("/admin/", loginRoutes);
+app.use("/admin/login", loginRoutes);
 app.use("/admin/employees", employeeRoutes);
 app.use("/admin/customers", customerRoutes);
 app.use("/admin/profile", accountSettingsRoutes);
